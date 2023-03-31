@@ -1,0 +1,65 @@
+{
+  "kind": "collectionType",
+  "collectionName": "trades",
+  "info": {
+    "singularName": "trade",
+    "pluralName": "trades",
+    "displayName": "trade",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "buyer": {
+      "type": "string"
+    },
+    "tradeOwner": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "biginteger"
+    },
+    "rate": {
+      "type": "float"
+    },
+    "isActive": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "sellerPaid": {
+      "type": "boolean",
+      "default": false
+    },
+    "buyerHasPay": {
+      "type": "boolean",
+      "default": false
+    },
+    "status": {
+      "type": "integer"
+    },
+    "idPayment": {
+      "type": "string"
+    },
+    "provider": {
+      "type": "enumeration",
+      "enum": [
+        "MONCASH"
+      ]
+    },
+    "tradeType": {
+      "type": "integer"
+    },
+    "seller": {
+      "type": "string"
+    },
+    "idTrade": {
+      "type": "string"
+    },
+    "hash": {
+      "type": "string"
+    }
+  }
+}
