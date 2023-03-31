@@ -1,9 +1,9 @@
-'use strict';
+"use strict";
 
 /**
- * holder controller
+ * holder controllerdasadasdasd
  */
 
-const { createCoreController } = require('@strapi/strapi').factories;
+const { createCoreController } = require("@strapi/strapi").factories;
 
-module.exports = createCoreController('api::holder.holder');
+module.exports = createCoreController("api::holder.holder");
