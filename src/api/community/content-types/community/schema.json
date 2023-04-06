@@ -23,10 +23,24 @@
       "type": "text"
     },
     "email": {
-      "type": "email"
+      "type": "email",
+      "unique": true,
+      "required": true
     },
     "phone": {
       "type": "string"
+    },
+    "partnership": {
+      "type": "enumeration",
+      "enum": [
+        "COMMUNITY",
+        "AFFILIATE"
+      ]
+    },
+    "active": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }
