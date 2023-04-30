@@ -1,0 +1,18 @@
+HOST=0.0.0.0
+PORT=1337
+APP_KEYS=2JWwhtA+o+wGDpc7xY5EeA==,4YPP4a0BaCEsKwqx8dupmA==,7EJPMAJCa5KybZwf3RCeMw==,JxLWmH8wynEwYSIvU/RrSw==
+API_TOKEN_SALT=oKpRKr431pz0Z4DSmmHReg==
+ADMIN_JWT_SECRET=pFKPZu7JVIzPFuk38m8kXA==
+TRANSFER_TOKEN_SALT=+31lAhcDTs0Hf3Z0u+7Ufg==
+# Database
+DATABASE_URL=postgres://onetchekuser:EzCKnrWvuRsNUcKFk1KoGcsqErxeQoJY@dpg-cgi9m51r8t1g7lvqkg5g-a.oregon-postgres.render.com/onetchekdb
+DATABASE_CLIENT=postgres
+DATABASE_HOST=dpg-cgi9m51r8t1g7lvqkg5g-a.oregon-postgres.render.com
+DATABASE_PORT=5432
+DATABASE_NAME=onetchekdb
+DATABASE_USERNAME=onetchekuser
+DATABASE_PASSWORD=EzCKnrWvuRsNUcKFk1KoGcsqErxeQoJY
+DATABASE_SSL=true
+DATABASE_FILENAME=.tmp/data.db
+JWT_SECRET=dQqRZ+kf6qYHoDQLtFFV1w==
+

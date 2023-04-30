@@ -4,7 +4,8 @@
   "info": {
     "singularName": "setting",
     "pluralName": "settings",
-    "displayName": "setting"
+    "displayName": "setting",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,6 +13,9 @@
   "pluginOptions": {},
   "attributes": {
     "qrcodes": {
+      "type": "json"
+    },
+    "limits": {
       "type": "json"
     }
   }
