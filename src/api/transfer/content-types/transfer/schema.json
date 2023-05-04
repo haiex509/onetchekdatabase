@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "transfers",
+  "info": {
+    "singularName": "transfer",
+    "pluralName": "transfers",
+    "displayName": "transfer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "from": {
+      "type": "string"
+    },
+    "to": {
+      "type": "string"
+    },
+    "amountIn": {
+      "type": "float"
+    },
+    "amountOut": {
+      "type": "float"
+    },
+    "fee": {
+      "type": "float"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "INITIATED",
+        "PENDING",
+        "DONE",
+        "FAILED"
+      ]
+    },
+    "note": {
+      "type": "text"
+    },
+    "hash": {
+      "type": "string"
+    },
+    "action": {
+      "type": "enumeration",
+      "enum": [
+        "SEND",
+        "WITHDRAW",
+        "SELL",
+        "BUY"
+      ]
+    }
+  }
+}
