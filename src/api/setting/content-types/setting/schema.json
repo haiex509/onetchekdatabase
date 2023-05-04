@@ -17,6 +17,9 @@
     },
     "limits": {
       "type": "json"
+    },
+    "fees": {
+      "type": "json"
     }
   }
 }
