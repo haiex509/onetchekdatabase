@@ -50,6 +50,9 @@
         "SELL",
         "BUY"
       ]
+    },
+    "error": {
+      "type": "string"
     }
   }
 }
