@@ -59,6 +59,9 @@
     },
     "tokenName": {
       "type": "string"
+    },
+    "currentPrice": {
+      "type": "float"
     }
   }
 }
