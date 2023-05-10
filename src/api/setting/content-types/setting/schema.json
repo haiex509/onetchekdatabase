@@ -20,6 +20,9 @@
     },
     "fees": {
       "type": "json"
+    },
+    "tokens": {
+      "type": "json"
     }
   }
 }

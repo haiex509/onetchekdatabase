@@ -53,6 +53,12 @@
     },
     "error": {
       "type": "string"
+    },
+    "tokenAddress": {
+      "type": "string"
+    },
+    "tokenName": {
+      "type": "string"
     }
   }
 }
